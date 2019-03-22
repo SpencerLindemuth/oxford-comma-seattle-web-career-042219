@@ -10,5 +10,6 @@ def oxford_comma(array)
         base += "and #{array[index]}"
       end
     end
+  end
     return base
 end
