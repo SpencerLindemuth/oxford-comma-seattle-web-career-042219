@@ -1,7 +1,7 @@
 def oxford_comma(array)
   base = ""
   if array.length <= 2
-    array.join(" and ")
+    return array.join(" and ")
   else
     array.each_index do |index|
       if (index + 1) < array.length
@@ -11,5 +11,5 @@ def oxford_comma(array)
       end
     end
   end
-    return base
+  return base
 end
